@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-fylo-data-storage-component-html-css-uxT7b4zsaE)
-- Live Site URL: [Add live site URL here](https://sunilparbhoo.github.io/Frontend-Mentor-Fylo-Data-Storage-Component/)
+- Solution URL: [Frontend Mentor Fylo Data Storage Component Solution](https://www.frontendmentor.io/solutions/responsive-fylo-data-storage-component-html-css-uxT7b4zsaE)
+- Live Site URL: [Fylo Data Storage Component](https://sunilparbhoo.github.io/Frontend-Mentor-Fylo-Data-Storage-Component/)
 
 ## My process
 
