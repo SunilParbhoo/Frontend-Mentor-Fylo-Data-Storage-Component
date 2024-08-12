@@ -1,90 +1,39 @@
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
-
-### Neutral
-
-- Pale Blue: hsl(243, 100%, 93%)
-- Grayish Blue: hsl(229, 7%, 55%)
-- Dark Blue: hsl(228, 56%, 26%)
-- Very Dark Blue: hsl(229, 57%, 11%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 14px
-
-### Font
-
-- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 400, 700 */
-/*  ***************************************************************************** */
 :root {
-    /*********** COLORS ********************/
-    /* Primary */
-    --gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  /*********** COLORS ********************/
+  /* Primary */
+  --gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
 
-
-    /* Neutral */
-    --pale-blue: hsl(243, 100%, 93%);
-    --grayish-blue: hsl(229, 7%, 55%);
-    --dark-blue: hsl(228, 56%, 26%);
-    --very-dark-blue: hsl(229, 57%, 11%);
+  /* Neutral */
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
 }
 
-/* Desktop total screen dimensions are 1440 x 775 */
-
-/* Mobile total screen dimensions are 375 x 667 */
-
-
 body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    color: var(--pale-blue);
-    background-color: var(--very-dark-blue); 
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    /* max-width: 1440px; */
-    /* width: 1440; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: var(--pale-blue);
+  background-color: var(--very-dark-blue);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
 main {
-    height: 100%;
-    /* width: 100%; */
-    /* border: 1px solid lime; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-
 
 .two-column {
-    width: 920px;
-    /* border: 2px solid lightsalmon; */
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-
-
 
 /* Desktop dimensions 
 whole card 350 x 200
@@ -97,44 +46,39 @@ little icons are 50 x 50 still
 */
 
 .nav-card {
-    background-color: var(--dark-blue);
-    width: 350px;
-    height: 200px;
-    border-radius: 12px;
-    border-top-right-radius: 7rem;
-    box-sizing: border-box;
+  background-color: var(--dark-blue);
+  width: 350px;
+  height: 200px;
+  border-radius: 12px;
+  border-top-right-radius: 7rem;
+  box-sizing: border-box;
 }
 
 .nav-card-top {
-    /* border: 2px solid yellowgreen; */
-    padding: 40px 40px 30px;
+  padding: 40px 40px 30px;
 }
 
 .nav-card-bottom {
-    /* border: 2px solid orangered; */
-    width: 60%;
-    padding: 0 30px;
-    display: flex;
-    justify-content: space-around;
-
+  width: 60%;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-card-bottom .box {
-    width: 50px;
-    height: 50px;
-    background-color: var(--very-dark-blue);
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--very-dark-blue);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-card-bottom .box:hover {
-    cursor: pointer;
-    opacity: 60%;
+  cursor: pointer;
+  opacity: 60%;
 }
-
-
 
 /* CAPACITY CARD */
 
@@ -143,237 +87,180 @@ little icons are 50 x 50 still
 /* mobile total card 325 x 160 */
 
 .capacity-card {
-    box-sizing: border-box;
-    background-color: var(--dark-blue);
-    width: 540px;
-    height: 155px;
-    padding: 43px 37px;
-    border-radius: 12px;
-    position: relative;
+  box-sizing: border-box;
+  background-color: var(--dark-blue);
+  width: 540px;
+  height: 155px;
+  padding: 43px 37px;
+  border-radius: 12px;
+  position: relative;
 }
 
 .capacity-card-text p {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .capacity-card-text span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /*card meter 324x160 in mobile */
 
 .capacity-card-meter {
-    height: 20px;
-    /* width: 460px; */
-    width: 99%;
-    background-color: var(--very-dark-blue);
-    border-radius: 1rem;
-    position: relative;
+  height: 20px;
+  /* width: 460px; */
+  width: 99%;
+  background-color: var(--very-dark-blue);
+  border-radius: 1rem;
+  position: relative;
 }
 
 .capacity-card-meter::before {
-    content: "";
-    /* width: 340px; */
-    width: 74%;
-    height: 100%;
-    box-sizing: border-box;
-    background: var(--gradient);
-    border: 2px solid var(--very-dark-blue);
-    border-radius: 1rem;
-    position: absolute;
-    top: 0;
-    left: 0;
+  content: "";
+  width: 74%;
+  height: 100%;
+  box-sizing: border-box;
+  background: var(--gradient);
+  border: 2px solid var(--very-dark-blue);
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .capacity-card-meter::after {
-    content: "";
-    height: 12px;
-    width: 12px;
-    background-color: white;
-    position: absolute;
-    border-radius: 50%;
-    top: 4px;
-    /* right: 123.5px; */
-    right: 27%;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 4px;
+  right: 27%;
 }
 
-
 .meter-text {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .meter-text p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 
 /* mobile approx. 180 x 72 so leave same dimensions as desktop but remove pointer part */
 
 .bubble {
-    box-sizing: border-box;
-    background-color: white;
-    color: var(--grayish-blue);
-    width: 180px;
-    height: 72px;
-    padding: 26px 0;      
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    position: absolute;
-    letter-spacing: 1px;   
-    font-weight: 700; 
-    top: -48px;
-    right: 40px;
+  box-sizing: border-box;
+  background-color: white;
+  color: var(--grayish-blue);
+  width: 180px;
+  height: 72px;
+  padding: 26px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  position: absolute;
+  letter-spacing: 1px;
+  font-weight: 700;
+  top: -48px;
+  right: 40px;
 }
 
 .bubble span {
-    font-size: 38px;
-    color: var(--very-dark-blue);
+  font-size: 38px;
+  color: var(--very-dark-blue);
 }
 
 .bubble sup {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .bubble::after {
-    /* bubble triangle part is 23px by 23px */
-    content: "";
-    border-top: 23px solid transparent;
-    border-right: 23px solid white;
-    border-bottom: 23px solid transparent;
-    position: absolute;
-    right: 0;
-    bottom: -25%;
+  content: "";
+  border-top: 23px solid transparent;
+  border-right: 23px solid white;
+  border-bottom: 23px solid transparent;
+  position: absolute;
+  right: 0;
+  bottom: -25%;
 }
 
 .attribution {
-    /* border: 2px solid lightskyblue; */
-    position: absolute;
-    bottom: 30px;
+  position: absolute;
+  bottom: 30px;
 }
 
 .attribution a {
-    color: var(--pale-blue);
-    font-weight: 700;
-    text-decoration: none;
+  color: var(--pale-blue);
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .desktop-bg-img {
-    position: absolute;
-    z-index: -1;
-    bottom:0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 50vh;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50vh;
 }
 
 .mobile-bg-img {
-    display: none;
+  display: none;
 }
 
-
 @media only screen and (max-width: 940px) {
-    .two-column {
-        height: 100vh;
-        width: 350px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 25px;
-    }
+  .two-column {
+    height: 100vh;
+    width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+  }
 
-    .col-left {
-        margin-bottom: 5.25%;
-    }
+  .col-left {
+    margin-bottom: 5.25%;
+  }
 
-    /* target/context = result */
-    .capacity-card {
-        width: 350px;
-        height: 160px;
-    }
+  /* target/context = result */
+  .capacity-card {
+    width: 350px;
+    height: 160px;
+  }
 
-    .bubble {
-        top: initial;
-        bottom: -23%;
-        right: 85px;
-    }
+  .bubble {
+    top: initial;
+    bottom: -23%;
+    right: 85px;
+  }
 
-    .bubble::after {
-        display: none;
-    }
+  .bubble::after {
+    display: none;
+  }
 
-    .desktop-bg-img {
-        display: none;
-    }
+  .desktop-bg-img {
+    display: none;
+  }
 
-    .mobile-bg-img {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100vh;
-    }
-
-
+  .mobile-bg-img {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    .nav-card {
-        width: 325px;
-    }
+  .nav-card {
+    width: 325px;
+  }
 
-    .capacity-card {
-        width: 325px;
-    }
+  .capacity-card {
+    width: 325px;
+  }
 }
-
-
-
-
-
-/* @media only screen and (max-width: 375px) {
-    .two-column {
-        width: 375px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-card {
-        width: 325px;
-        height: 205px;
-        margin: 0 23px;
-    }
-
-    .capacity-card {
-        width: 325px;
-        height: 160px;
-        margin: 23px 16px;
-    }
-
-    .capacity-card-meter {
-        width: 260px;
-        height: 18px;
-    }
-
-    .capacity-card-meter::before {
-        height: 100%;
-        width: 190px;
-    }
-
-    .capacity-card-meter::after {
-        right: 74px;
-    }
-
-    .bubble {
-        position: absolute;
-        top: initial;
-        bottom: -23%;
-        right: 23%;
-        overflow: hidden;
-    }
-
-    img.background-img[src]
-} */
